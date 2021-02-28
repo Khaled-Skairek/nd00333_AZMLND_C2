@@ -15,12 +15,17 @@ Here we will go through the steps of the project along with the screenshots of f
 1. Dataset of the bankmarketing is registrered in Azure ML  
 ![Registered dataset](images/01_Registered_datasets.png)
 3. Experiment is complete
-4. Best model
-5. Application insights
-6. Logs
-7. Swagger runs on localhost
-8. Endpoint
-9. Apache benchmark
-10. Pipeline
+![Experiment is complete](images/02_automl_completed.png)
+5. Best model
+![Best model](images/03_automl_best_model.png)
+7. Application insights
+![Application insights](images/04_application_insights.png)
+9. Logs
+![Logs](images/05_logs_1.png)
+![Logs](images/06_logs_2.png)
+11. Swagger runs on localhost
+12. Endpoint
+13. Apache benchmark
+14. Pipeline
 # Screencast
 https://youtu.be/QWq_eiP9UXY
