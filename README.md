@@ -12,14 +12,15 @@ Machine learning pipeline is created and published in the same way as the model 
 2. Let the student do some coding would be nice
 # Screenshots
 Here we will go through the steps of the project along with the screenshots of functioning steps.  
-1. Dataset of the bankmarketing is registrered in Azure ML
-2. Experiment is complete
-3. Best model
-4. Application insights
-5. Logs
-6. Swagger runs on localhost
-7. Endpoint
-8. Apache benchmark
-9. Pipeline
+1. Dataset of the bankmarketing is registrered in Azure ML  
+![Registered dataset](images/01_Registered_datasets.png)
+3. Experiment is complete
+4. Best model
+5. Application insights
+6. Logs
+7. Swagger runs on localhost
+8. Endpoint
+9. Apache benchmark
+10. Pipeline
 # Screencast
 https://youtu.be/QWq_eiP9UXY
