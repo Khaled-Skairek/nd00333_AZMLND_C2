@@ -24,8 +24,9 @@ Here we will go through the steps of the project along with the screenshots of f
 ![Logs](images/05_logs_1.png)
 ![Logs](images/06_logs_2.png)
 11. Swagger runs on localhost
-12. Endpoint
-13. Apache benchmark
-14. Pipeline
+![Swagger runs on localhost](images/swagger_best_model.png)
+13. Endpoint
+14. Apache benchmark
+15. Pipeline
 # Screencast
 https://youtu.be/QWq_eiP9UXY
