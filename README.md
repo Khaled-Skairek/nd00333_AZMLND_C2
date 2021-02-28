@@ -25,8 +25,16 @@ Here we will go through the steps of the project along with the screenshots of f
 ![Logs](images/06_logs_2.png)
 11. Swagger runs on localhost
 ![Swagger runs on localhost](images/swagger_best_model.png)
+![Swagger runs on localhost](images/swagger_post.png)
 13. Endpoint
-14. Apache benchmark
-15. Pipeline
+![Endpoint](images/endpoint_consume.png)
+15. Apache benchmark shows statistics about the model performance which can be used as a baseline for potential further improvement
+![Apache benchmark](images/benchmark.png)
+17. Pipeline
+![Pipeline](images/pipeline.png)
+![Pipeline](images/pipeline_created.png)
+![Pipeline](images/pipeline_run.png)
+![Pipeline](images/pipeline_rest_endpoint.png)
+![Pipeline](images/pipeline_steps_run.png)
 # Screencast
 https://youtu.be/QWq_eiP9UXY
