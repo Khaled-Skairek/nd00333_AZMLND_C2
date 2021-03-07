@@ -26,19 +26,19 @@ Once the auto ml module step is complete, the list of models are available the t
 4. Application insights  
 We choose the best model for deployment and enable "Authentication" while deploying the model using Azure Container Instance (ACI). The executed code in logs.py enables Application Insights. "Application Insights enabled" is disabled before executing logs.py.
 ![Application insights](images/04_application_insights.png)
-5. Logs
+5. Logs  
 ![Logs](images/05_logs_1.png)
 ![Logs](images/06_logs_2.png)
-6. Swagger runs on localhost
+6. Swagger runs on localhost  
 We use Swagger to communicate ith the deployed model API, for that we have a local Swagger server setup as we can see in the following screenshots:
 ![Swagger runs on localhost](images/swagger_best_model.png)
 ![Swagger runs on localhost](images/swagger_post.png)
-7. Endpoint
+7. Endpoint  
 Once the model was successfully deployed, it can be used. The following image shows the response of the deployed model after sending JSON Payload data in the form that the model expects. To have a look at the format of data needed, one can use Swagger.
 ![Endpoint](images/endpoint_consume.png)
 8. Apache benchmark shows statistics about the model performance which can be used as a baseline for potential further improvement
 ![Apache benchmark](images/benchmark.png)
-9. Pipeline
+9. Pipeline  
 At the end, here are somescreenshots showing the published pipeline as a service and the information needed call it.
 ![Pipeline](images/pipeline.png)
 ![Pipeline](images/pipeline_created.png)
