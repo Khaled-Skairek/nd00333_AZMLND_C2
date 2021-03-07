@@ -8,8 +8,10 @@ Machine learning pipeline is created and published in the same way as the model 
 # Architecture
 ![Architecture](images/Architecture.png)
 # Improve the project
-1. Split the notebook into two parts, one for the model and one for the pipeline
-2. Let the student do some coding would be nice
+1. Consume the pipeline as a service using Python SDK and Swagger as well
+2. Detect model performance drop for some reason, define the reason and fix it, retrain the model using the pipeline web service, deploy the model.
+3. Split the notebook into two parts, one for the model and one for the pipeline
+4. Let the student do some coding would be nice
 # Screenshots
 Here we will go through the steps of the project along with the screenshots of functioning steps.  
 1. Dataset of the bankmarketing is registrered in Azure ML  
