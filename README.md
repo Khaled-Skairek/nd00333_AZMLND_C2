@@ -14,25 +14,32 @@ Machine learning pipeline is created and published in the same way as the model 
 4. Let the student do some coding would be nice
 # Screenshots
 Here we will go through the steps of the project along with the screenshots of functioning steps.  
-1. Dataset of the bankmarketing is registrered in Azure ML  
+1. Dataset of the bankmarketing is registrered in Azure ML:  
+We have to have data to start with, the following screenshots shows the dataset we are going to use registered in the Azure ML studio.
 ![Registered dataset](images/01_Registered_datasets.png)
-3. Experiment is complete
+2. Experiment is complete  
+The following screenshot shows the experiment in the state complete, which means the pipeline (load data + auto ml) was complete.
 ![Experiment is complete](images/02_automl_completed.png)
-5. Best model
+3. Best model  
+Once the auto ml module step is complete, the list of models are available the the best model in terms of performance measure is chosen. Here are some details of the best model:
 ![Best model](images/03_automl_best_model.png)
-7. Application insights
+4. Application insights  
+We choose the best model for deployment and enable "Authentication" while deploying the model using Azure Container Instance (ACI). The executed code in logs.py enables Application Insights. "Application Insights enabled" is disabled before executing logs.py.
 ![Application insights](images/04_application_insights.png)
-9. Logs
+5. Logs
 ![Logs](images/05_logs_1.png)
 ![Logs](images/06_logs_2.png)
-11. Swagger runs on localhost
+6. Swagger runs on localhost
+We use Swagger to communicate ith the deployed model API, for that we have a local Swagger server setup as we can see in the following screenshots:
 ![Swagger runs on localhost](images/swagger_best_model.png)
 ![Swagger runs on localhost](images/swagger_post.png)
-13. Endpoint
+7. Endpoint
+Once the model was successfully deployed, it can be used. The following image shows the response of the deployed model after sending JSON Payload data in the form that the model expects. To have a look at the format of data needed, one can use Swagger.
 ![Endpoint](images/endpoint_consume.png)
-15. Apache benchmark shows statistics about the model performance which can be used as a baseline for potential further improvement
+8. Apache benchmark shows statistics about the model performance which can be used as a baseline for potential further improvement
 ![Apache benchmark](images/benchmark.png)
-17. Pipeline
+9. Pipeline
+At the end, here are somescreenshots showing the published pipeline as a service and the information needed call it.
 ![Pipeline](images/pipeline.png)
 ![Pipeline](images/pipeline_created.png)
 ![Pipeline](images/pipeline_run.png)
