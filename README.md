@@ -43,7 +43,8 @@ At the end, here are somescreenshots showing the published pipeline as a service
 ![Pipeline](images/pipeline.png)
 ![Pipeline](images/pipeline_created.png)
 ![Pipeline](images/pipeline_run.png)
+The pipeline is published and in status "Active"  
 ![Pipeline](images/pipeline_rest_endpoint.png)
 ![Pipeline](images/pipeline_steps_run.png)
 # Screencast
-https://www.youtube.com/watch?v=77lq0y5L8Eg
+https://youtu.be/3xrEwDEsbfk
