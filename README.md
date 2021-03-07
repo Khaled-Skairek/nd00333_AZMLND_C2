@@ -37,4 +37,4 @@ Here we will go through the steps of the project along with the screenshots of f
 ![Pipeline](images/pipeline_rest_endpoint.png)
 ![Pipeline](images/pipeline_steps_run.png)
 # Screencast
-https://youtu.be/QWq_eiP9UXY
+https://www.youtube.com/watch?v=77lq0y5L8Eg
